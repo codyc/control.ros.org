@@ -1,11 +1,13 @@
 .. _acknowledgements:
 
-Acknowledgements
+Acknowledgements（致谢）
 ================
 
-Maintainers
+Maintainers（维护者）
 ----------------
 The following people were maintaining the ``ros2_control`` framework, showing their review activity and contributions:
+
+以下人员维护 ``ros2_control`` 框架，显示了他们的审查活动和贡献：
 
 .. tabs::
 
@@ -37,9 +39,11 @@ The following people were maintaining the ``ros2_control`` framework, showing th
     .. raw:: html
       :file: reviewers_maintainers_stats.html
 
-Contributors
+Contributors（贡献者）
 ----------------
 The following people have contributed to the development of this project by providing valuable reviews or by submitting pull requests, see :ref:`doc/contributing/contributing:contributing` for more information.
+
+以下人员通过提供有价值的审查或提交拉取请求为该项目的开发做出了贡献，更多信息请参见 :ref:`doc/contributing/contributing:contributing`。
 
 .. tabs::
 
@@ -72,9 +76,11 @@ The following people have contributed to the development of this project by prov
       :file: reviewers_stats.html
 
 
-Companies and Institutions
+Companies and Institutions（公司和机构）
 --------------------------
 The project has received major contributions from the following companies and institutions.
+
+该项目得到了以下公司和机构的重大贡献。
 
 |stoglroboticslogo|
 
@@ -104,10 +110,17 @@ The project has received major contributions from the following companies and in
 |rosin_ack_logo_wide|
 
 Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components.
+
+得到 ROSIN - ROS-Industrial 质量保证机器人软件组件的支持。
+
 More information: https://cordis.europa.eu/project/id/732287
+
+更多信息：https://cordis.europa.eu/project/id/732287
 
 This project has received funding from the European Union's Horizon 2020
 research and innovation programme under grant agreement no. 732287.
+
+该项目已获得欧盟地平线 2020 研究和创新计划第 732287 号资助协议的资助。
 
 .. |rosin_ack_logo_wide| image:: images/rosin_ack_logo_wide.png
     :height: 60

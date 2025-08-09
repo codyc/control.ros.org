@@ -1,15 +1,19 @@
 
 =================
-API Documentation
+API Documentation（API 文档）
 =================
 
-ros2_control stack
+ros2_control stack（ros2_control 堆栈）
 #############################
 API documentation for the whole framework is parsed by doxygen and can be found `here <../api/index.html>`_.
 
-Per-Package API Documentation
+整个框架的 API 文档由 doxygen 解析，可以在 `这里 <../api/index.html>`_ 找到。
+
+Per-Package API Documentation（按包的 API 文档）
 #############################
 In the following, you can find links to the per-package API documentation published on docs.ros.org.
+
+以下是在 docs.ros.org 上发布的按包 API 文档的链接。
 
 ros2_control
 *************

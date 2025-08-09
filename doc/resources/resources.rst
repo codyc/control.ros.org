@@ -1,17 +1,40 @@
 .. _resources:
 
-Resources
-=========
+Resources（Summary:
+  If you already know that the ros2_control framework acts as a Kernel for ROS 2 robotics systems you are using but need help with application complexity, then this workshop is for you. The workshop covers the use of ros2_control controllers in products from various industries and shows solutions for all the little issues when running 24/7.
+
+  You will get a practical overview of concepts like controller chaining - used for cascade control and real-time state estimators; and asynchronous and "side-load" controllers that enable you to run complex calculations without jitter in your control loops. We expect your active involvement!
+
+Summary:
+  如果您已经知道 ros2_control 框架充当您正在使用的 ROS 2 机器人系统的内核，但需要帮助处理应用程序复杂性，那么这个研讨会适合您。该研讨会涵盖了各行业产品中 ros2_control 控制器的使用，并展示了 24/7 运行时所有小问题的解决方案。
+
+  您将获得概念的实用概述，如控制器链接 - 用于级联控制和实时状态估计器；以及异步和"侧载"控制器，使您能够在控制循环中运行复杂计算而无抖动。我们期待您的积极参与！
+
+:doc:`Workshop page <roscon2024_workshop>`
+
+  Authors:
+    - Dr. Denis Stogl (Stogl Robotics Consulting)
+    - Dr. Bence Magyar (Locus Robotics)
+
+2023-10-18 ROSCon Workshop: ros2_control on Steroids（2023-10-18 ROSCon 研讨会：加强版 ros2_control）
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,=
 
 The resources provided in the ``resources`` folder are available for use under CC-BY license |CC-BY|_.
+
+``resources`` 文件夹中提供的资源可在 CC-BY 许可证 |CC-BY|_ 下使用。
+
 The original authors are named either in the documents or in the list down below.
+
+原作者要么在文档中命名，要么在下面的列表中命名。
 
 Any files submitted to the documentation should be "licensed" by stating your name and ``ros2_control`` organization if no company name applicable, e.g., ``CC-BY My Name (ros2_control/company_name)``.
 
-Presentations
+提交给文档的任何文件都应通过声明您的姓名和 ``ros2_control`` 组织（如果没有适用的公司名称）来"许可"，例如，``CC-BY My Name (ros2_control/company_name)``。
+
+Presentations（演示文稿）
 ---------------
 
-2024-10-21 ROSCon Workshop: Fun with Controllers
+2024-10-21 ROSCon Workshop: Fun with Controllers（2024-10-21 ROSCon 研讨会：控制器的乐趣）
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 .. toctree::

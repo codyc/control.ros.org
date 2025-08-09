@@ -1,22 +1,27 @@
-Supported Robots
+Supported Robots（支持的机器人）
 ================
 
 This page hosts a list of supported robots and references to them.
+
+此页面托管支持的机器人列表及其参考资料。
+
 To add your robot, submit a PR to this page on Github!
 
-Communication protocols
+要添加您的机器人，请在 Github 上向此页面提交 PR！
+
+Communication protocols（通信协议）
 ------------------------
 - `CanOpen <https://github.com/ros-industrial/ros2_canopen>`_
 - `Ethercat <https://github.com/ICube-Robotics/ethercat_driver_ros2>`_
 
-End-effectors
+End-effectors（末端执行器）
 --------------
 - `Schunk SVH 5-finger Hand <https://github.com/SCHUNK-SE-Co-KG/schunk_svh_ros_driver/tree/ros2-humble>`_
 - `TESOLLO DG-3F-B <https://github.com/Tesollo-Delto/DG3F_B_ROS2>`__
 - `TESOLLO DG-3F-M <https://github.com/Tesollo-Delto/DG3F_M_5F_ROS2>`__
 - `TESOLLO DG-5F <https://github.com/Tesollo-Delto/DG3F_M_5F_ROS2>`__
 
-Non robot-devices
+Non robot-devices（非机器人设备）
 ------------------
 - `ctrlX AUTOMATION <https://github.com/boschrexroth/ctrlx-automation-sdk-ros2>`_
 - `Force Dimension haptic devices <https://github.com/ICube-Robotics/forcedimension_ros2>`_
@@ -27,7 +32,7 @@ Non robot-devices
 - `PCA9685 16-Channel 12-bit PWM/Servo Driver <https://github.com/rosblox/pca9685_ros2_control>`_
 - `ROBOTIS Dynamixel <https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface>`_
 
-Official (supported by robot manufacturer)
+Official (supported by robot manufacturer)（官方（由机器人制造商支持））
 -------------------------------------------
 - `Clearpath Robotics Dingo Dx1X0 <https://docs.clearpathrobotics.com/docs_robots/indoor_robots/dingo/user_manual_dingo>`_
 - `Clearpath Robotics Husky A200 <https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky>`_

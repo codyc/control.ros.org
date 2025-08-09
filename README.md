@@ -1,4 +1,4 @@
-# control.ros.org
+# control.ros.org（control.ros.org）
 
 [![Build & Deploy Page](https://github.com/ros-controls/control.ros.org/actions/workflows/sphinx-make-page.yml/badge.svg)](https://github.com/ros-controls/control.ros.org/actions/workflows/sphinx-make-page.yml)
 [![Broken Links](https://github.com/ros-controls/control.ros.org/actions/workflows/sphinx-check-links.yml/badge.svg?branch=master)](https://github.com/ros-controls/control.ros.org/actions/workflows/sphinx-check-links.yml)
@@ -6,22 +6,52 @@
 
 This repository holds the source and configuration files used to generate the
 [ros2_control documentation](https://control.ros.org) web site. The current test version of the documentation can be found [here](https://ros-controls.github.io/control.ros.org/).
+
+此仓库包含用于生成 [ros2_control 文档](https://control.ros.org) 网站的源文件和配置文件。当前的文档测试版本可以在 [这里](https://ros-controls.github.io/control.ros.org/) 找到。
+
 We use [sphinx](https://www.sphinx-doc.org/en/master/) for single version and [sphinx-multiversion](https://holzhaus.github.io/sphinx-multiversion/master/index.html#) for the multi version build of our documentation.
+
+我们使用 [sphinx](https://www.sphinx-doc.org/en/master/) 构建单版本文档，使用 [sphinx-multiversion](https://holzhaus.github.io/sphinx-multiversion/master/index.html#) 构建多版本文档。
+
 The doc files themselves are written in [restructuredtext format](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) (*.rst).
 
-## Structure and build commands
+文档文件本身使用 [restructuredtext 格式](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) (*.rst) 编写。
+
+## Structure and build commands（结构和构建命令）
 
 The documentation files for [ros2_control](https://github.com/ros-controls/ros2_control), [ros2_controllers](https://github.com/ros-controls/ros2_controllers) and [ros2_control_demos](https://github.com/ros-controls/ros2_control_demos) are located in the respective repositories themselves (called subrepositories from now on).
+
+[ros2_control](https://github.com/ros-controls/ros2_control)、[ros2_controllers](https://github.com/ros-controls/ros2_controllers) 和 [ros2_control_demos](https://github.com/ros-controls/ros2_control_demos) 的文档文件位于各自的仓库中（从现在开始称为子仓库）。
+
 They have to be included inside the `doc` folder.
+
+它们必须包含在 `doc` 文件夹内。
+
 There are `make` commands available which automate the process of building and inclusion of the subrepositories for you.
+
+有可用的 `make` 命令可以为您自动化构建和包含子仓库的过程。
+
 **NOTE**: In `spinx-multiverison` changes in the documentation are only visible after committing them. If you want to check them before committing, you can build a single version of the docs.
 
+**注意**：在 `sphinx-multiversion` 中，文档的更改只有在提交后才可见。如果您想在提交之前检查它们，可以构建单个版本的文档。
+
 * ```make html``` - Builds a single version, changes are immediate visible. You have to include the subrepositories yourself.
+
+* ```make html``` - 构建单个版本，更改立即可见。您必须自己包含子仓库。
+
 * ```make html-all-subrepos``` - Builds a single version, changes are immediate visible. All subrepositories are automatically included.
+
+* ```make html-all-subrepos``` - 构建单个版本，更改立即可见。所有子仓库都会自动包含。
+
 * ```make multiversion``` - Builds multiversion version, changes are only visible after commit. **Make sure to commit everything before running!**
+
+* ```make multiversion``` - 构建多版本，更改只有在提交后才可见。**确保在运行前提交所有内容！**
+
 * For each command, a  ```make <command>-with-api``` exists, which in addition builds the `doxygen` api.
 
-## Fetch reviewer stats
+* 对于每个命令，都存在一个 ```make <command>-with-api```，它还会构建 `doxygen` api。
+
+## Fetch reviewer stats（获取审查者统计信息）
 
 First, you need to fetch the reviewer stats from ros2_control org. To do so, you need to have a github token with the `repo` scope. Then run
 
